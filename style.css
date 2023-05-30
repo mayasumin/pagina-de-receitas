@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: 3.125rem 450px;
+    border-radius: .625rem;
+    padding: 3.125rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+header h1 {
+    padding-bottom: 1.25rem;
+    font: normal 700 1.75rem "Roboto", sans-serif;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+header figure img {
+    width: 100%;
+    height: 15.625rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+header figure figcaption {
+    font: normal 400 .75rem "Roboto", sans-serif;
+    color: #8f8f8f;
+    text-align: right;
+}
+
+main h2 {
+    padding: 2.1875rem;
+    font: normal 700 1.25rem "Roboto", sans-serif;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+ul, ol {
+    font: normal 400 1rem/1.625rem "Roboto", sans-serif;
+    color: #39393a;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.extra p {
+    font: normal 400 1rem "Roboto", sans-serif;
+    color: #39393a;
+}
+
+footer {
+    padding: 2.1875rem;
+    font: normal 400 .75rem "Roboto", sans-serif;
+    color:#8f8f8f;
+    text-align: center;
+}
